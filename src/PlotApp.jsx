@@ -65,10 +65,10 @@ const PlotApp = () => {
             <div style={{display: 'flex', flexDirection: 'column', marginLeft: '20px', marginTop: '140px'}}>
                 <div style={{display: 'flex', flexDirection: 'row', marginBottom: '20px'}}>
                     <div style={{display: 'flex', flexDirection: 'column', marginRight: '20px'}}>
-                        <div style={{marginBottom: '10px'}}>
+                        <div style={{marginTop: '5px', marginBottom: '16px'}}>
                             <Form.Label htmlFor='nInput'>Число витков в катушках (n):</Form.Label>
                         </div>
-                        <div style={{marginBottom: '10px'}}>
+                        <div style={{marginBottom: '16px'}}>
                             <Form.Label htmlFor='iInput'>Величина тока (I, А):</Form.Label>
                         </div>
                         <div>
